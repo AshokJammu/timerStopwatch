@@ -6,9 +6,9 @@ This project was created  with  React[Create React App](https://github.com/faceb
 ## Overview of The Project:
 TimerStopwatch App allows user can use like stopwatch and setting like timer.
 
-<!-- <a href =  "https://mocktail-wb.netlify.app/">
+<a href =  "https://timerstopwatch.netlify.app/">
   <button style = "background:red,padding:5px">Demo Link</button>
-</a> -->
+</a>
 
 <p>To get started timer and user can stop,pause and reset time at anytime in the app</p>
 <p> <img src  = "https://github.com/AshokJammu/timerStopwatch/blob/master/timerstopwatch/public/timer.png"> </p>
