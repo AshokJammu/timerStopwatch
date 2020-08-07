@@ -105,23 +105,25 @@ class Timer extends React.Component{
                         <label>
                             Hours:
                                 <input name="hrs"
+                                style={{height:25}}
                                 type="number" value={this.state.value}
                                 onChange={this.handleChange}
                             />
                         </label>
                         <label>
                             Minutes:
-                            <input name="mins" type="number" value={this.state.value} onChange={this.handleChange} />
+                            <input name="mins" type="number" value={this.state.value} style={{height:25}} onChange={this.handleChange} />
                         </label>
                         <label>
                             Seconds:
-            <input name="secs" type="secs" value={this.state.value} onChange={this.handleChange} />
+            <input name="secs" type="secs" value={this.state.value} style={{height:25}} onChange={this.handleChange} />
                         </label>
                     </div>
                     <h2>{this.state.hrs}:{this.state.mins}:{this.state.secs}.</h2>
                     <div>
                         <div  style={{
           display: "flex"
+        //   height:"100px"
         }}>
                             {this.state.timer ? (
                                 <button onClick={this.handleStop}  >

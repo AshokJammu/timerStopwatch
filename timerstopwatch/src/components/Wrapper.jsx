@@ -27,7 +27,7 @@ import Stopwatch from './Stopwatch'
                  outline:"1px solid black"
              }}>
 
-                <h3>Wrapper</h3>
+                {/* <h3>Wrapper</h3> */}
                 <Header toggle = {this.toggleActive}/>
                 {isActive ==="timer" && <Timer/>}
                 {isActive ==="stopwatch" && <Stopwatch/>}

@@ -127,7 +127,7 @@ render(){
     // var milliseconds = Math.floor(total/10);
     return (
         <>
-            <h1>StopWatch</h1>
+            {/* <h1>StopWatch</h1> */}
             <div>
                  <h3>Timer:{hours}:{minutes}:{seconds}:{milliseconds}</h3>
             </div>
@@ -144,7 +144,7 @@ render(){
               font-size: 16px;
             }
           `}
-        </style>       
+        </style>      
             </div>
         </>
     )
